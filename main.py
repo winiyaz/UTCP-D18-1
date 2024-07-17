@@ -24,7 +24,7 @@ for _ in range(4):
     ina_tut.forward(100)
     ina_tut.right(90)
 
-
+# Drawing
 
 
 
