@@ -2,7 +2,7 @@
 
 from turtle import Turtle, Screen
 
-from toinit import to_init as toi
+from ex.toinit import to_init as toi
 
 # Turtle setup ---
 
