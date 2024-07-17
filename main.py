@@ -13,11 +13,16 @@ ina_tut.shape("turtle")
 screen = Screen()
 screen.register_shape("ax.gif")
 
+# Setting the shape here
 ina_tut.shape("ax.gif")
 ina_tut.color("coral")
 ina_tut.shapesize(stretch_wid=3, stretch_len=3, outline=1)
 screen.bgcolor("#020617")
 
+# Make it a circle
+for _ in range(4):
+    ina_tut.forward(100)
+    ina_tut.right(90)
 
 
 
