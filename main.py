@@ -1,16 +1,34 @@
-# This is a sample Python script.
+# Day 18 - Turtle and GUI
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Importing the turtle module
+
+from turtle import Turtle, Screen
+
+ina_tut = Turtle()
+
+# Shapes and colors
+ina_tut.shape("turtle")
+ina_tut.color("coral")
+ina_tut.shapesize(stretch_wid=3, stretch_len=3, outline=1)
+ina_tut.screen.bgcolor("#020617")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Show Screen - Exit Screen with click
+ina_tut_screen = Screen()
+ina_tut_screen.exitonclick()
