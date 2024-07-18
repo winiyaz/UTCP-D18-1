@@ -31,6 +31,7 @@ colo_list = [(31, 35, 68), (73, 82, 139), (121, 74, 104), (48, 50, 104), (59, 33
 print(colo_list)
 
 to.penup()
+to.hideturtle()
 to.setheading(215)
 to.forward(600)
 to.setheading(0)
