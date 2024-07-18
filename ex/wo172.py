@@ -30,8 +30,9 @@ colo = [
 # Robot movement
 
 directions = [0, 90, 180, 270]  # Directions
+to.speed("fastest")
 
-for _ in range(20):
+for _ in range(200):
     to.forward(100)
     to.setheading(rp.choice(directions))
     to.color(rp.choice(colo))
