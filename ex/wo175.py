@@ -30,19 +30,29 @@ colo_list = [(31, 35, 68), (73, 82, 139), (121, 74, 104), (48, 50, 104), (59, 33
 
 print(colo_list)
 
+to.penup()
 to.setheading(215)
 to.forward(600)
 to.setheading(0)
 
-number_of_dots = 100
+number_of_dots = 150
 
-for dot_count in range(1,number_of_dots):
+for dot_count in range(1, number_of_dots + 1):
 	to.dot(30, rp.choice(colo_list))
 	to.forward(50)
-	if number_of_dots % 10 == 0:
+
+	if dot_count % 20 == 0:
 		to.setheading(90)
+		to.forward(100)
+		to.setheading(180)
+		to.forward(1000)
+		to.setheading(0)
 
-
+# to.setheading(90)
+# to.forward(100)
+# to.setheading(180)
+# to.forward(950)
+# to.setheading(0)
 
 
 # --- Exiting on click function
