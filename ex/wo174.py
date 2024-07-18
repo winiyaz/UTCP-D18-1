@@ -32,11 +32,16 @@ def rando_colo():
 
 to.speed("fastest")  # Set speed to fastest
 
-for _ in range(100):
-	to.color(rando_colo())
-	to.circle(100)
-	to.setheading(to.heading() + 10)
-	to.pensize(rp.randint(1, 15))
+def dr_sp(gap):
+	"""Stop the circle animation once it hits 360"""
+	for _ in range(int(360 / gap)):
+		to.color(rando_colo())
+		to.circle(150)
+		to.setheading(to.heading() + gap)
+		to.pensize(rp.randint(1, 15))
+
+# call above function
+dr_sp(100)
 
 
 # --- Exiting on click function
