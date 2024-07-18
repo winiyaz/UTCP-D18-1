@@ -9,6 +9,7 @@
 > Dump of tools and websites used durin the project 
 
 1. [`TrinketColors`](https://trinket.io/docs/colors) - Getting the turtle color names
+2. [`Html5ColorCodes`](https://www.w3schools.com/colors/colors_rgb.asp) - Html color codes 
 
 # Directory Pussy 
 
